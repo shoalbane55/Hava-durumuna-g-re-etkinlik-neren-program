@@ -1,0 +1,14 @@
+
+        int heat;
+        Scanner sicaklik =new Scanner(System.in);
+        System.out.println("HAVA KAÇ DERECE? ");
+        heat= sicaklik.nextInt();
+        if (heat<=5){
+            System.out.println("BU HAVADA KAYAK YAPABİLİRSİN");
+        } if (heat<=15) {
+            System.out.println("BU HAVADA SİNEMAYA GİDEBİLİRSİN");
+        } if (heat>=10) {
+            System.out.println("BU HAVADA PİKNİK YAPABİLİRSİN");
+        } if (heat>=25) {
+            System.out.println("BU HAVADA YÜZEBİLİRSİN");
+        }
